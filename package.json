@@ -1,0 +1,21 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "login",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0"
+  }
+}
